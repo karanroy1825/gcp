@@ -1,0 +1,6 @@
+runtime: python39
+entrypoint: python hw.py
+
+handlers:
+- url: /.*
+  script: auto
